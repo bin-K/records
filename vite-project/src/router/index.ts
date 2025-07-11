@@ -11,11 +11,11 @@ const routes: Array<RouteRecordRaw> = [
 		name: 'RecordModules',
 		component: () => import('../components/record-module/index.vue'),
 	},
-	{
-		path: '/ued-plus-test',
-		name: 'UedPlusTest',
-		component: () => import('../components/ued-plus/test.vue'),
-	},
+	// {
+	// 	path: '/ued-plus-test',
+	// 	name: 'UedPlusTest',
+	// 	component: () => import('../components/ued-plus/test.vue'),
+	// },
 	{
 		path: '/dialog-translate',
 		name: 'DialogTranslate',
