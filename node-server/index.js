@@ -16,9 +16,9 @@ app.use(koaBody({
 }))
 
 // 处理跨域问题
-// app.use(cors({
-//   origin: '*'
-// }))
+app.use(cors({
+  origin: '*'
+}))
 
 // 使用koa-router中间件（推荐）
 app.use(router.routes())
