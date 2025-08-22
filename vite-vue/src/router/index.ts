@@ -11,11 +11,11 @@ const routes: Array<RouteRecordRaw> = [
 		name: 'RecordModules',
 		component: () => import('../components/record-module/index.vue'),
 	},
-	// {
-	// 	path: '/ued-plus-test',
-	// 	name: 'UedPlusTest',
-	// 	component: () => import('../components/ued-plus/test.vue'),
-	// },
+	{
+		path: '/ued-plus-test',
+		name: 'UedPlusTest',
+		component: () => import('../components/ued-plus/test.vue'),
+	},
 	{
 		path: '/dialog-translate',
 		name: 'DialogTranslate',
@@ -41,9 +41,16 @@ const routes: Array<RouteRecordRaw> = [
 		name: 'WebWorkerCanvas',
 		component: () => import('../components/web-worker/canvas.vue'),
 	},
+	{
+		path: '/cors',
+		name: 'Cors',
+		component: () => import('../components/cors/index.vue'),
+	},
 ]
 
 export default createRouter({
-	history: createWebHistory(),
+	history: createWebHistory(
+		import.meta.env.MODE === 'production' ? '/vite-vue/' : '/'
+	),
 	routes,
 })

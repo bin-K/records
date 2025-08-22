@@ -4,7 +4,9 @@ import SsePage from '../pages/sse'
 
 export default function AppRouter() {
 	return (
-		<Router>
+		<Router
+			basename={import.meta.env.MODE === 'development' ? '/' : '/vite-react'}
+		>
 			<Routes>
 				<Route path="/" element={<App />} />
 				<Route path="/sse" element={<SsePage />} />
