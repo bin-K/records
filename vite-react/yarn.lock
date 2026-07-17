@@ -583,6 +583,11 @@
   dependencies:
     csstype "^3.0.2"
 
+"@ued/ued-react@^1.0.3":
+  version "1.0.3"
+  resolved "http://192.168.153.129:8081/repository/npm-hosted/@ued/ued-react/-/ued-react-1.0.3.tgz#fa872a3d91e7cbc75124d70bbafe7f4871dac481"
+  integrity sha512-CholvczZu7X2SawDVKJBUwKK8PonvO1PbSQf8heWuWXAh8PRbKhcNTV2ItK+zTZ1XPPqhEQ6WMRY1CgaR04v5w==
+
 "@vitejs/plugin-react@^4.6.0":
   version "4.7.0"
   resolved "https://registry.npmmirror.com/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz#647af4e7bb75ad3add578e762ad984b90f4a24b9"

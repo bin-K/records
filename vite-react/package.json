@@ -11,6 +11,7 @@
 	},
 	"dependencies": {
 		"@microsoft/fetch-event-source": "^2.0.1",
+		"@ued/ued-react": "^1.0.3",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
 		"react-router": "^7.7.0",

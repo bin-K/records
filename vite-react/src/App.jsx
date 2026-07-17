@@ -6,6 +6,7 @@ function App() {
 	const routers = [
 		{ path: '/', label: 'Home' },
 		{ path: '/sse', label: 'SSE' },
+		{ path: '/ued-react', label: 'Ued React' },
 	]
 	return (
 		<div className="App">
